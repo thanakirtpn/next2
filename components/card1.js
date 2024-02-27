@@ -1,4 +1,4 @@
-const Card1 = ({ propertyImage }) => {
+const RentItem = ({ propertyImage }) => {
   return (
     <div className="w-[400px] rounded-3xs bg-gray-white box-border shrink-0 flex flex-col items-start justify-start py-[15px] pr-3.5 pl-3 gap-[23px_0px] min-w-[355px] max-w-[400px] min-h-[467px] text-left text-mini-5 text-gray-700 font-body-large-400 border-[1px] border-solid border-whitesmoke hover:bg-gainsboro-200 hover:cursor-pointer mq450:max-w-full mq450:w-[calc(100%_-_40px)]">
       <img
@@ -85,4 +85,4 @@ const Card1 = ({ propertyImage }) => {
   );
 };
 
-export default Card1;
+export default RentItem;

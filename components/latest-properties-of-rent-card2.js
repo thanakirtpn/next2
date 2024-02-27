@@ -1,6 +1,6 @@
-import Card1 from "./card1";
+import RentItem from "./card1";
 
-const LatestPropertiesOfRentCard2 = () => {
+const HomeRent = () => {
   return (
     <section className="flex flex-col items-center justify-start py-[86px] px-0 box-border gap-[39px_0px] max-w-full text-center text-21xl text-primary-800 font-body-large-400 lg:pt-14 lg:pb-14 lg:box-border mq450:pt-9 mq450:pb-9 mq450:box-border mq825:gap-[39px_0px]">
       <div className="flex flex-col items-center justify-start gap-[40px_0px] max-w-full mq825:gap-[40px_0px]">
@@ -15,19 +15,19 @@ const LatestPropertiesOfRentCard2 = () => {
           </div>
         </div>
         <div className="w-[1920px] overflow-x-auto flex flex-row flex-wrap items-center justify-center py-0 px-2.5 box-border gap-[32px] max-w-full text-left text-mini-5 text-gray-700 mq825:gap-[32px]">
-          <Card1 propertyImage="/property-image@2x.png" />
-          <Card1 propertyImage="/property-image-1@2x.png" />
-          <Card1 propertyImage="/property-image-2@2x.png" />
-          <Card1 propertyImage="/property-image-3@2x.png" />
+          <RentItem propertyImage="/property-image@2x.png" />
+          <RentItem propertyImage="/property-image-1@2x.png" />
+          <RentItem propertyImage="/property-image-2@2x.png" />
+          <RentItem propertyImage="/property-image-3@2x.png" />
         </div>
       </div>
-      <div className="rounded bg-primary-500 flex flex-row items-start justify-start py-3 pr-5 pl-6 whitespace-nowrap text-base text-gray-white hover:bg-royalblue mq450:w-[calc(100%_-_40px)]">
-        <div className="relative leading-[24px] font-medium">
+      <button className="cursor-pointer [border:none] py-3 pr-5 pl-6 bg-primary-500 rounded flex flex-row items-start justify-start whitespace-nowrap hover:bg-steelblue mq450:w-[calc(100%_-_40px)]">
+        <div className="relative text-base leading-[24px] font-medium font-body-large-400 text-gray-white text-center">
           Load more listing
         </div>
-      </div>
+      </button>
     </section>
   );
 };
 
-export default LatestPropertiesOfRentCard2;
+export default HomeRent;

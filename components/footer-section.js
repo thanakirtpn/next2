@@ -1,4 +1,4 @@
-const FooterSection = () => {
+const Footer = () => {
   return (
     <footer className="self-stretch flex flex-row items-start justify-start p-[50px] box-border max-w-full text-left text-5xl text-gray-black font-body-regular-400 lg:pl-[25px] lg:pr-[25px] lg:box-border mq450:pt-8 mq450:pb-8 mq450:box-border">
       <div className="flex-1 flex flex-row items-start justify-between max-w-full gap-[20px] lg:flex-wrap lg:justify-center">
@@ -90,9 +90,9 @@ const FooterSection = () => {
           </div>
         </div>
         <div className="w-[203px] flex flex-col items-start justify-start gap-[32px_0px]">
-          <h3 className="m-0 relative text-inherit leading-[32px] font-semibold font-inherit mq450:text-lgi mq450:leading-[26px]">
+          <div className="relative leading-[32px] font-semibold mq450:text-lgi mq450:leading-[26px]">
             Team and policies
-          </h3>
+          </div>
           <div className="self-stretch flex flex-col items-start justify-start gap-[16px_0px] text-base text-gray-500">
             <div className="relative leading-[24px]">Terms of servies</div>
             <div className="relative leading-[24px]">Privacy Policy</div>
@@ -104,4 +104,4 @@ const FooterSection = () => {
   );
 };
 
-export default FooterSection;
+export default Footer;

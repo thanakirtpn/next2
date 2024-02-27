@@ -1,6 +1,6 @@
 import { useMemo } from "react";
 
-const Card = ({ propBackgroundImage }) => {
+const BlogItem = ({ propBackgroundImage }) => {
   const card1Style = useMemo(() => {
     return {
       backgroundImage: propBackgroundImage,
@@ -35,4 +35,4 @@ const Card = ({ propBackgroundImage }) => {
   );
 };
 
-export default Card;
+export default BlogItem;

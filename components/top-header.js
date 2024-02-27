@@ -1,4 +1,4 @@
-const TopHeader = () => {
+const Header = () => {
   return (
     <header className="self-stretch h-[98px] bg-gray-white flex flex-row items-center justify-center py-[22px] px-20 box-border top-[0] z-[99] sticky max-w-full text-center text-5xl text-primary-500 font-body-large-400 lg:pl-10 lg:pr-10 lg:box-border">
       <div className="flex-1 flex flex-row items-center justify-between gap-[20px] max-w-full">
@@ -50,4 +50,4 @@ const TopHeader = () => {
   );
 };
 
-export default TopHeader;
+export default Header;

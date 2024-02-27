@@ -1,4 +1,4 @@
-const HeroSection = () => {
+const Hero = () => {
   return (
     <section className="self-stretch flex flex-col items-center justify-start py-[120px] px-[30px] box-border bg-[url('/hero-section@3x.png')] bg-cover bg-no-repeat bg-[top] max-w-full text-center text-33xl text-gray-white font-body-regular-400 mq825:pt-[78px] mq825:pb-[78px] mq825:box-border">
       <div className="self-stretch flex flex-col items-center justify-center gap-[62px_0px] max-w-full mq450:gap-[62px_0px] mq825:gap-[62px_0px]">
@@ -85,4 +85,4 @@ const HeroSection = () => {
   );
 };
 
-export default HeroSection;
+export default Hero;

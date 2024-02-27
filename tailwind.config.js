@@ -20,7 +20,6 @@ module.exports = {
         darkslategray: "#434343",
         "gray-400": "#889099",
         "primary-800": "#1e2640",
-        royalblue: "#3c6af6",
         whitesmoke: "#eaeaea",
         gainsboro: {
           "100": "#e6e6e6",

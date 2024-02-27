@@ -1,4 +1,4 @@
-const LatestPropertiesOfRentCard = () => {
+const Contact = () => {
   return (
     <section className="self-stretch bg-primary-50 flex flex-row flex-wrap items-start justify-center py-[86px] px-[5px] box-border max-w-full text-center text-21xl text-primary-800 font-body-large-400 mq450:gap-[39px] mq450:pt-9 mq450:pb-9 mq450:box-border mq825:pt-14 mq825:pb-14 mq825:box-border">
       <div className="w-[900px] flex flex-col items-center justify-start py-0 px-2.5 box-border gap-[40px_0px] max-w-[900px] lg:max-w-full mq450:gap-[40px_0px]">
@@ -65,4 +65,4 @@ const LatestPropertiesOfRentCard = () => {
   );
 };
 
-export default LatestPropertiesOfRentCard;
+export default Contact;

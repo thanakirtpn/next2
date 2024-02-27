@@ -1,4 +1,4 @@
-const PropertiesByAreaImagesSect = () => {
+const Home = () => {
   return (
     <section className="self-stretch flex flex-col items-center justify-start py-[53px] px-[50px] box-border gap-[45px_0px] max-w-full text-center text-21xl text-primary-800 font-body-large-400 lg:pl-[25px] lg:pr-[25px] lg:box-border mq450:pt-[22px] mq450:pb-[22px] mq450:box-border mq825:gap-[45px_0px] mq825:pt-[34px] mq825:pb-[34px] mq825:box-border">
       <div className="self-stretch flex flex-col items-center justify-start py-0 px-[30px] gap-[24px_0px]">
@@ -72,4 +72,4 @@ const PropertiesByAreaImagesSect = () => {
   );
 };
 
-export default PropertiesByAreaImagesSect;
+export default Home;
